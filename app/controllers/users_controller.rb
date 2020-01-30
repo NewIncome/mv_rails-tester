@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    @name = 'I am the Show action!'
+    @name = "This id th id #{params[:id]}"
   end
 
   def edit
